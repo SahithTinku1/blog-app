@@ -1,0 +1,27 @@
+/* Home.css */
+
+.articleHome {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .articleHome h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--crimson);
+  }
+  
+  .articleImage {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  

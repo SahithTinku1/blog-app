@@ -1,0 +1,55 @@
+/* Signin.css */
+
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signin-card {
+    width: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .signin-title {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .error-message {
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--crimson);
+  }
+  
+  .signin-label {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .radio-group {
+    margin-bottom: 20px;
+  }
+  
+  .signin-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--dark-green);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signin-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

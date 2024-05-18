@@ -1,0 +1,36 @@
+/* Header.css */
+
+.custom-navbar {
+    background-color: var(--light-olive);
+  }
+  
+  .navbar-brand img {
+    width: 60px;
+  }
+  
+  .nav-link {
+    color: rgba(255, 255, 255, 0.385);
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: var(--light-grey);
+  }
+  
+  .nav-item .user-info {
+    color: #994570;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-family: fantasy;
+  }
+  
+  .nav-item .user-info sup {
+    color: var(--dark-green);
+    font-size: 1rem;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(255,255,255,1)' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+  }
+  
